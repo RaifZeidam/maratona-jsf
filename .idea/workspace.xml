@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70eabc1d-ce4c-4973-9888-5a44bc177b7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/classes/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/classes/br/com/devdojo/maratonajsf/model/Estudante.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/classes/br/com/devdojo/maratonajsf/model/enums/Turno.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/lib/jsf-api-2.2.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/lib/primefaces-8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/model/Estudante.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/model/enums/Turno.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maratona-jsf.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/maratona-jsf.war/index2.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/estudante/EstudanteRegistrarBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/enums/Turno.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index2.xhtml" />
-    </list>
+    <list default="true" id="70eabc1d-ce4c-4973-9888-5a44bc177b7e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +98,7 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2159">
+            <state relative-caret-position="-119">
               <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
@@ -899,12 +864,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653323888709</updated>
-      <workItem from="1653323896473" duration="22211000" />
+      <workItem from="1653323896473" duration="22551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22211000" />
+    <option name="totallyTimeSpent" value="22551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1051,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2159">
+        <state relative-caret-position="-119">
           <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
