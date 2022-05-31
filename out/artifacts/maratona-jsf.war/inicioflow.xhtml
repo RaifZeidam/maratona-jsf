@@ -5,8 +5,13 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
-    <h:outputLabel value="Uhuu chegamos"/><br/>
-    <h:outputText value="#{testRequestBean.personagemSelecionado}"/>
-</f:view>
+<h:head>
+    <h:body>
+        <h2>Ponto de entrada do FlowScoped</h2>
+        <h:form>
+            <h:commandButton value="Entrar no Flow" action="registration"/>
+            <h:commandButton value="Entrar no Flow builder" action="newregistration"/>
+        </h:form>
+    </h:body>
+</h:head>
 </html>
