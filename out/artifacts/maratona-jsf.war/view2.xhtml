@@ -6,11 +6,13 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-    <h:body>
-        <h:outputText value="#{testApplicationBean.categoriaList}"/><br/>
-        <h:outputText value="#{testApplicationBean.dependentBean.categoriasList}"/><br/>
-        <h:outputLabel value="Pegando o valor do View Bean"/><br/>
-        <h:outputText value="#{testViewBean.personagemSelecionado}"/>
-    </h:body>
+
 </h:head>
+
+<h:body>
+    <h:outputText value="#{testApplicationBean.categoriaList}"/><br/>
+    <h:outputText value="#{testApplicationBean.dependentBean.categoriasList}"/><br/>
+    <h:outputLabel value="Pegando o valor do View Bean"/><br/>
+    <h:outputText value="#{testViewBean.personagemSelecionado}"/>
+</h:body>
 </html>

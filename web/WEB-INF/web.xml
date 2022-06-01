@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>login.xhtml</welcome-file>
+        <welcome-file>comunicacao11.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>

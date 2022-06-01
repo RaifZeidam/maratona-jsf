@@ -2,6 +2,11 @@ package br.com.devdojo.maratonajsf.model;
 
 import br.com.devdojo.maratonajsf.model.enums.Turno;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import static java.util.Arrays.asList;
+
 /**
  * Created by Bakawaii on 23/05/2022.
  */
@@ -12,6 +17,21 @@ public class Estudante {
     double nota2;
     double nota3 = 10;
     private Turno turno = Turno.MATUTINO;
+
+    public Estudante() {
+    }
+
+    public Estudante(String nome, String sobrenome, double nota1) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.nota1 = nota1;
+    }
+
+    public static List<Estudante> estudanteList() {
+        return new ArrayList<>(asList(new Estudante("Ikki", "Fenix", 10),
+                new Estudante("Shiryu", "Dragao", 10),
+                new Estudante("Seiya", "Pegasus", 10)));
+    }
 
     public Turno getTurno() {
         return turno;

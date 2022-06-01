@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>login.xhtml</welcome-file>
+        <welcome-file>comunicacao11.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>
@@ -36,6 +36,11 @@
         <filter-name>LoginFilter</filter-name>
         <url-pattern>/restricted/*</url-pattern>
     </filter-mapping>
+
+    <context-param>
+        <param-name>images.location</param-name>
+        <param-value>C:\var</param-value>
+    </context-param>
 
     <!--<error-page>-->
         <!--&lt;!&ndash;<exception-type>org.jboss.weld.context.NonexistentConversationException</exception-type>&ndash;&gt;-->

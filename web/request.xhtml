@@ -6,20 +6,22 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-    <h:body>
-        <h:form>
-            <h:outputText value="#{testApplicationBean.categoriaList}"/><br/>
-            <h:outputText value="#{testRequestBean.personagemSelecionado}"/><br/>
-            <h:outputText value="#{loginBean.estudante.nome}"/><br/>
-            <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
-                             value="Selecionar Personagem"/>
-            <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
-                             value="Selecionar Personagem Forward" action="index2"/>
-            <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
-                             value="Selecionar Personagem Redirect" action="index2?faces-redirect=true"/>
-            <h:commandButton actionListener="#{testApplicationBean.mudarLista()}"
-                             value="Mudar Lista ApplicationBean"/>
-        </h:form>
-    </h:body>
+
 </h:head>
+
+<h:body>
+    <h:form>
+        <h:outputText value="#{testApplicationBean.categoriaList}"/><br/>
+        <h:outputText value="#{testRequestBean.personagemSelecionado}"/><br/>
+        <h:outputText value="#{loginBean.estudante.nome}"/><br/>
+        <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
+                         value="Selecionar Personagem"/>
+        <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
+                         value="Selecionar Personagem Forward" action="index2"/>
+        <h:commandButton actionListener="#{testRequestBean.selecionarPersonagem()}"
+                         value="Selecionar Personagem Redirect" action="index2?faces-redirect=true"/>
+        <h:commandButton actionListener="#{testApplicationBean.mudarLista()}"
+                         value="Mudar Lista ApplicationBean"/>
+    </h:form>
+</h:body>
 </html>

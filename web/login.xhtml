@@ -7,17 +7,19 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-    <h:body>
-        <h:form>
-            <h:panelGrid columns="1">
-                <p:messages autoUpdate="true"/>
-                <h:outputLabel value="Nome"/>
-                <h:inputText value="#{loginBean.nome}" required="true" requiredMessage="Por favor insira um nome"/>
-                <h:outputLabel value="Senha "/>
-                <h:inputSecret value="#{loginBean.senha}" required="true" requiredMessage="Por favor insira a senha"/>
-                <h:commandButton value="Logar" action="#{loginBean.logar}"/>
-            </h:panelGrid>
-        </h:form>
-    </h:body>
+
 </h:head>
+
+<h:body>
+    <h:form>
+        <h:panelGrid columns="1">
+            <p:messages autoUpdate="true"/>
+            <h:outputLabel value="Nome"/>
+            <h:inputText value="#{loginBean.nome}" required="true" requiredMessage="Por favor insira um nome"/>
+            <h:outputLabel value="Senha "/>
+            <h:inputSecret value="#{loginBean.senha}" required="true" requiredMessage="Por favor insira a senha"/>
+            <h:commandButton value="Logar" action="#{loginBean.logar}"/>
+        </h:panelGrid>
+    </h:form>
+</h:body>
 </html>
