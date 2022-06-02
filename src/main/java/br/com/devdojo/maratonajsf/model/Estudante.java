@@ -2,6 +2,7 @@ package br.com.devdojo.maratonajsf.model;
 
 import br.com.devdojo.maratonajsf.model.enums.Turno;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,13 +11,15 @@ import static java.util.Arrays.asList;
 /**
  * Created by Bakawaii on 23/05/2022.
  */
-public class Estudante {
+public class Estudante implements Serializable{
+    private Integer id;
     private String nome = "Raif";
     private String sobrenome = "Zeidam";
     double nota1 = 20;
     double nota2;
     double nota3 = 10;
     private Turno turno = Turno.MATUTINO;
+    private String email;
 
     public Estudante() {
     }
@@ -27,10 +30,48 @@ public class Estudante {
         this.nota1 = nota1;
     }
 
+    public Estudante(Integer id, String nome, String sobrenome, double nota1) {
+        this.id = id;
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.nota1 = nota1;
+    }
+
     public static List<Estudante> estudanteList() {
-        return new ArrayList<>(asList(new Estudante("Ikki", "Fenix", 10),
-                new Estudante("Shiryu", "Dragao", 10),
-                new Estudante("Seiya", "Pegasus", 10)));
+        return new ArrayList<>(asList(new Estudante(1, "Ikki", "Fenix", 10),
+                new Estudante(2, "Shiryu", "Dragao", 10),
+                new Estudante(3, "Seiya", "Pegasus", 10)));
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Estudante estudante = (Estudante) o;
+
+        return id != null ? id.equals(estudante.id) : estudante.id == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return id != null ? id.hashCode() : 0;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Turno getTurno() {
