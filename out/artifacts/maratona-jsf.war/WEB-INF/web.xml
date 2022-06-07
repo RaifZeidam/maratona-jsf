@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>datatable.xhtml</welcome-file>
+        <welcome-file>ajax3.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>
@@ -21,6 +21,11 @@
     <context-param>
         <param-name>javax.faces.FACELETS_SKIP_COMMENTS</param-name>
         <param-value>true</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>javax.faces.SEPARATOR_CHAR</param-name>
+        <param-value>-</param-value>
     </context-param>
 
     <session-config>
